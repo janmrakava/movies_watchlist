@@ -1,0 +1,129 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0e0e0e;
+    
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    color: white;
+    background-image: url("https://images.unsplash.com/photo-1628432136678-43ff9be34064?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1563&q=80");
+    background-color: #444;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position-y: 25%;
+   
+}
+
+#title{
+    font-weight: 900;
+    font-size: 3em;
+}
+#movies-results{
+   
+}
+#search{
+    display: flex;
+    height: 3rem;
+    margin: -1.5rem auto 0px;
+    width: 60%;
+}
+#search input{
+    width: 70%;
+    font-size: 1.2em;
+    border: none;
+    padding: 1rem;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid gray;
+    border-right: none;
+}
+#search button{
+    width: 30%;
+    padding: 1rem;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: 1px solid gray;
+    border-left: none;
+}
+a{
+    text-decoration: none;
+    color: white    
+}
+.explore{
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+
+
+}
+.movie{
+    display: flex;
+    margin: 0 auto;
+    width: 90%;  
+    height: 300px;
+    border: 1px solid white; 
+    color: white;
+}
+.movie:first-of-type{    
+    padding-top: 1em;
+ 
+}
+.poster{
+    width: 100px;
+    height: 150px;
+    margin: 0.5em 0em 0em 1em;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;    
+    overflow: hidden;
+    border: 1px solid black;
+    
+}
+
+.title-wrapper{
+    display: flex;
+    justify-content: flex-start;        
+    border: 1px solid red;   
+}
+#rating{
+    margin-left: .5rem;
+    margin-top: 1.2rem;
+}
+.meta{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0em 1em .5em 0em;
+    border: 1px solid purple;
+}
+.description{
+    max-height: 80px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    border: 1px solid green;
+    margin: 0em 1em .5em 0em;
+}
+.watchlist{
+    display: flex;
+   
+}
+
+img{
+    display: block;
+}
+.addWatch,
+.minusWatch{
+    width: 16px;
+    height: 16px;
+    margin: 1em; 
+}
